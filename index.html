@@ -1,0 +1,1009 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- STYLES -->
+    <link rel="stylesheet" href="./style/base.css" />
+    <link rel="stylesheet" href="./style/main.css" />
+    <!-- RESET AND BASE -->
+    <link rel="stylesheet" href="./style/reset.css" />
+    <!-- MAIN PAGE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONTS -->
+    <title>Realco</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__notification">
+        <span class="header__notification-text"
+          >Get your dream house in a week.</span
+        >
+        <a href="#" class="header__notification-btn"
+          ><img src="./img/header/notification-btn.svg" alt="close-btn"
+        /></a>
+      </div>
+      <!-- 1. береш інпут робиш його кнопкой - у тебе хрестик
+2. далі в css див якшо у нього є клас checked то скриваеш далі блок і все -->
+      <div class="header__container _container">
+        <div class="header__row">
+          <div class="header__logo">
+            <img
+              src="./img/header/header-logo.svg"
+              alt="Logo"
+              class="header__logo-pic"
+            />
+          </div>
+          <nav class="header__navigation">
+            <ul class="header__navigation-links">
+              <li><a href="" class="header__navigation-link">Home</a></li>
+              <li>
+                <a href="" class="header__navigation-link"
+                  >Properties
+                  <img
+                    src="./img/header/expand_more.svg"
+                    alt="btn"
+                    class="header__nav-link-img"
+                /></a>
+              </li>
+              <li class="mr-link">
+                <a href="" class="header__navigation-link">About</a>
+              </li>
+              <!-- nth child -->
+              <li><a href="" class="header__navigation-link">Contact</a></li>
+              <li>
+                <a href="" class="header__navigation-link"
+                  ><img
+                    src="./img/header/search.svg"
+                    alt="search-button"
+                    class="header__nav-link-img"
+                  />Search</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <div class="header__buttons">
+            <a href="#" class="header__btn-cart btn-white">
+              <img
+                src="./img/header/shopping_bag.svg"
+                alt="cart"
+                class="header__btn-pic"
+              />Cart
+            </a>
+            <a href="#" class="header__btn-find btn-orange">Find a property</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="dream-place">
+        <img
+          src="./img/dream-room/Vector-deco.svg"
+          alt="deco-art"
+          class="dream-place__decoration-pic"
+        />
+        <div class="dream-place__container _container">
+          <div class="dream-place__row">
+            <div class="dream-place__main">
+              <div class="dream-place__content">
+                <div class="dream-place__title title-min">
+                  <h3>Find your dream place</h3>
+                </div>
+                <h2 class="dream-place__subtitle">
+                  Find house for your family in minutes
+                </h2>
+                <span class="dream-place__description"
+                  >Aenean sodales mauris quis tellus facilisis, vel mattis
+                  magna. Interdum curabitur eget aliquam elit in mauris
+                  purus.</span
+                >
+                <form class="dream-place__search">
+                  <img
+                    src="./img/dream-room/search-ico.svg"
+                    alt="search"
+                    class="dream-place__search-ico"
+                  />
+                  <input
+                    type="text"
+                    placeholder="Search"
+                    class="dream-place__input"
+                  />
+                  <button href="#" class="dream-place__search-btn btn-orange">
+                    Find property
+                  </button>
+                </form>
+              </div>
+              <div class="dream-place__decoration-second">
+                <img
+                  src="./img/dream-room/second-deco pic.svg"
+                  alt="deco-art"
+                  class="dream-place__decoration-second-pic"
+                />
+              </div>
+            </div>
+            <div class="dream-place__img">
+              <img
+                src="./img/dream-room/room.jpg"
+                alt="room"
+                class="dream-place__main-img"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="partners">
+        <div class="partners__container _container">
+          <div class="partners__row">
+            <span class="partners__text"
+              >As seen on the world's best magazines and media</span
+            >
+            <div class="patners__icons">
+              <img
+                src="./img/partners/01.svg"
+                alt="partner"
+                class="partner__icon"
+              />
+              <img
+                src="./img/partners/02.svg"
+                alt="partner"
+                class="partner__icon"
+              />
+              <img
+                src="./img/partners/03.svg"
+                alt="partner"
+                class="partner__icon"
+              />
+              <img
+                src="./img/partners/04.svg"
+                alt="partner"
+                class="partner__icon"
+              />
+              <img
+                src="./img/partners/05.svg"
+                alt="partner"
+                class="partner__icon"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="how-it-works">
+        <div class="how-it-works__container _container">
+          <div class="how-it-works__description">
+            <h2 class="how-it-works__title section-title">How it works</h2>
+            <p class="how-it-works__text">
+              Nunc laoreet consequat nunc at consequat. Praesent aliquam mi id
+              efficitur pellentesque. <br />
+              Maecenas varius felis felis.
+            </p>
+          </div>
+          <div class="how-it-works__items">
+            <div class="how-it-works-item card">
+              <img
+                src="./img/how-it-work/01.svg"
+                alt="deco-art"
+                class="how-it-works-item-ico"
+              />
+              <h3 class="how-it-works-item-title items-titile">
+                Find property
+              </h3>
+              <p class="how-it-works-item-text item-description">
+                Odales mauris quis tellus facilisis, vel mattis magna interdum.
+                Curabitur eget aliquam elit. In mauris purus, auctor a eleifend
+                non.
+              </p>
+            </div>
+            <div class="how-it-works-item card">
+              <img
+                src="./img/how-it-work/02.svg"
+                alt="deco-art"
+                class="how-it-works-item-ico"
+              />
+              <h3 class="how-it-works-item-title items-titile">Make a deal</h3>
+              <p class="how-it-works-item-text item-description">
+                Pellentesque suscipit mauris. Nam dictum, erat a volutpat
+                varius, urna nisi sollicitudin orci, sagittis facilisis odio
+                tortor ac mi.
+              </p>
+            </div>
+            <div class="how-it-works-item card">
+              <img
+                src="./img/how-it-work/03.svg"
+                alt="deco-art"
+                class="how-it-works-item-ico"
+              />
+              <h3 class="how-it-works-item-title items-titile">
+                Get your keys
+              </h3>
+              <p class="how-it-works-item-text item-description">
+                Nulla vel bibendum purus. Etiam tempus quam vel pulvinar rutrum.
+                Duis semper, metus vitae fermentum consequat.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="comfort">
+        <div class="comfort__container _container">
+          <div class="comfort__row">
+            <div class="comfort__description">
+              <h3 class="comfort__title title-min">Comfort first</h3>
+              <h2 class="comfort__subtitle section-title">
+                The best houses for family comfort
+              </h2>
+              <p class="comfort__text">
+                Ectus ipsum faucibus justo, et semper quam nisl in nibh. Proin
+                sollicitudin, lorem non posuere blandit.
+              </p>
+              <div class="comfort__links">
+                <button class="comfort__btn btn-white">
+                  Explore properties
+                </button>
+                <a href="" class="comfort__link">Contact agent ></a>
+              </div>
+            </div>
+            <div class="comfort__image">
+              <img
+                src="./img/comfort/01.jpg"
+                alt="deco-art"
+                class="comfort__image-pic img-big"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="quick">
+        <div class="quick__container _container">
+          <div class="quick__row">
+            <div class="quick__image">
+              <img
+                src="./img/quick/01.jpg"
+                alt="deco-art"
+                class="quick__image-pic img-big"
+              />
+            </div>
+            <div class="quick__description">
+              <div class="quick__title title-min">
+                <h3>Quick and easy</h3>
+              </div>
+              <h2 class="quick__subtitle section-title">
+                Fast forward process
+              </h2>
+              <p class="comfort__text">
+                Ut vitae nisi eu nisi maximus condimentum ac id purus. Duis sit
+                amet mi arcu praesent nec felis nisl.
+              </p>
+              <div class="quick__items">
+                <div class="quick__item">
+                  <div class="quick__item-img">
+                    <img
+                      src="./img/quick/02.svg"
+                      alt="deco-art"
+                      class="quick__item-pic"
+                    />
+                  </div>
+                  <h3 class="quick__item-title">Affordable prices</h3>
+                  <p class="quick__item-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Suspendisse varius enim in eros.
+                  </p>
+                </div>
+                <div class="quick__item">
+                  <div class="quick__item-img">
+                    <img
+                      src="./img/quick/03.svg"
+                      alt="deco-art"
+                      class="quick__item-pic"
+                    />
+                  </div>
+                  <h3 class="quick__item-title">Less paper work</h3>
+                  <p class="quick__item-text">
+                    Curabitur porta luctus semper donec eget lobortis leo ac
+                    finibus nisi.
+                  </p>
+                </div>
+              </div>
+              <div class="quick__links">
+                <button class="quick__btn btn-white">Explore properties</button>
+                <a href="" class="quick__link">Contact agent ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ASK ABOUT 2 UPPER SECTIONS -->
+      <section class="properties">
+        <img
+          src="./img/properties/deco-up.svg"
+          alt="decoration"
+          class="properties__deco-pic-up"
+        />
+        <div class="properties__container _container">
+          <div class="properties__titles">
+            <h3 class="properties__title title-min">Properties</h3>
+            <h2 class="properties__subtitle section-title">
+              Houses in your favorite area
+            </h2>
+          </div>
+          <div class="properties__items">
+            <div class="properties__item card">
+              <img
+                src="./img/properties/itemms/01.jpg"
+                alt="room-view"
+                class="properties__item-pic"
+              />
+              <div class="properties__item-content">
+                <h3 class="properties__item-title">
+                  Cozy studio in Los Angeles
+                </h3>
+                <span class="properties__item-price">$ 1,200.00 USD</span>
+                <div class="properties__item-geo">
+                  <img
+                    src="./img/properties/item-ico/place.svg"
+                    alt="geoposition"
+                    class="properties__item-geo-pic"
+                  />
+                  <span class="properties__item-geo-txt"
+                    >2263 Southlea, Los Angeles</span
+                  >
+                </div>
+                <div class="properties__item-info_row">
+                  <div class="properties__item-info_room">
+                    <div class="info_room-block">
+                      <img
+                        src="./img/properties/item-ico/bathtub.svg"
+                        alt="room ico"
+                      />
+                      <span class="item-info_room-text">2</span>
+                    </div>
+                    <div class="info_room-block">
+                      <img
+                        src="./img/properties/item-ico/bed.svg"
+                        alt="room ico"
+                      />
+                      <span class="item-info_room-text">2</span>
+                    </div>
+                    <div class="info_room-block">
+                      <img
+                        src="./img/properties/item-ico/square_foot.svg"
+                        alt="room ico"
+                      />
+                      <span class="item-info_room-text">840 sqft</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="properties__item card">
+              <img
+                src="./img/properties/itemms/02.jpg"
+                alt="room-view"
+                class="properties__item-pic"
+              />
+              <div class="properties__item-content">
+                <h3 class="properties__item-title">Tiny home in San Diego</h3>
+                <span class="properties__item-price">$ 740,000.00 USD</span>
+                <div class="properties__item-geo">
+                  <img
+                    src="./img/properties/item-ico/place.svg"
+                    alt="geoposition"
+                    class="properties__item-geo-pic"
+                  />
+                  <span class="properties__item-geo-txt"
+                    >2569 El Segundo, San Diego</span
+                  >
+                </div>
+                <div class="properties__item-info_row">
+                  <div class="properties__item-info_room">
+                    <div class="info_room-block">
+                      <img
+                        src="./img/properties/item-ico/bathtub.svg"
+                        alt="room ico"
+                      />
+                      <span class="item-info_room-text">1</span>
+                    </div>
+                    <div class="info_room-block">
+                      <img
+                        src="./img/properties/item-ico/bed.svg"
+                        alt="room ico"
+                      />
+                      <span class="item-info_room-text">2</span>
+                    </div>
+                    <div class="info_room-block">
+                      <img
+                        src="./img/properties/item-ico/square_foot.svg"
+                        alt="room ico"
+                      />
+                      <span class="item-info_room-text">400 sqft</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="properties__item card">
+              <img
+                src="./img/properties/itemms/03.jpg"
+                alt="room-view"
+                class="properties__item-pic"
+              />
+              <div class="properties__item-content">
+                <h3 class="properties__item-title">Crown house in New York</h3>
+                <span class="properties__item-price">$ 980,000.00 USD</span>
+                <div class="properties__item-geo">
+                  <img
+                    src="./img/properties/item-ico/place.svg"
+                    alt="geoposition"
+                    class="properties__item-geo-pic"
+                  />
+                  <span class="properties__item-geo-txt"
+                    >4489 Smity Fielda, New York</span
+                  >
+                </div>
+                <div class="properties__item-info_row">
+                  <div class="properties__item-info_room">
+                    <div class="info_room-block">
+                      <img
+                        src="./img/properties/item-ico/bathtub.svg"
+                        alt="room ico"
+                      />
+                      <span class="item-info_room-text">2</span>
+                    </div>
+                    <div class="info_room-block">
+                      <img
+                        src="./img/properties/item-ico/bed.svg"
+                        alt="room ico"
+                      />
+                      <span class="item-info_room-text">4</span>
+                    </div>
+                    <div class="info_room-block">
+                      <img
+                        src="./img/properties/item-ico/square_foot.svg"
+                        alt="room ico"
+                      />
+                      <span class="item-info_room-text">3200 sqft</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="properties__item card">
+              <img
+                src="./img/properties/itemms/04.jpg"
+                alt="room-view"
+                class="properties__item-pic"
+              />
+              <div class="properties__item-content">
+                <h3 class="properties__item-title">
+                  Family house in Los Angeles
+                </h3>
+                <span class="properties__item-price">$ 4,200.00 USD</span>
+                <div class="properties__item-geo">
+                  <img
+                    src="./img/properties/item-ico/place.svg"
+                    alt="geoposition"
+                    class="properties__item-geo-pic"
+                  />
+                  <span class="properties__item-geo-txt"
+                    >2263 Southlea, Los Angeles</span
+                  >
+                </div>
+                <div class="properties__item-info_row">
+                  <div class="properties__item-info_room">
+                    <div class="info_room-block">
+                      <img
+                        src="./img/properties/item-ico/bathtub.svg"
+                        alt="room ico"
+                      />
+                      <span class="item-info_room-text">2</span>
+                    </div>
+                    <div class="info_room-block">
+                      <img
+                        src="./img/properties/item-ico/bed.svg"
+                        alt="room ico"
+                      />
+                      <span class="item-info_room-text">3</span>
+                    </div>
+                    <div class="info_room-block">
+                      <img
+                        src="./img/properties/item-ico/square_foot.svg"
+                        alt="room ico"
+                      />
+                      <span class="item-info_room-text">1400 sqft</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="properties__item card">
+              <img
+                src="./img/properties/itemms/05.jpg"
+                alt="room-view"
+                class="properties__item-pic"
+              />
+              <div class="properties__item-content">
+                <h3 class="properties__item-title">Studio in Las Vegas</h3>
+                <span class="properties__item-price">$ 820,000.00 USD</span>
+                <div class="properties__item-geo">
+                  <img
+                    src="./img/properties/item-ico/place.svg"
+                    alt="geoposition"
+                    class="properties__item-geo-pic"
+                  />
+                  <span class="properties__item-geo-txt"
+                    >2569 Halls Corner, Las Vegas</span
+                  >
+                </div>
+                <div class="properties__item-info_row">
+                  <div class="properties__item-info_room">
+                    <div class="info_room-block">
+                      <img
+                        src="./img/properties/item-ico/bathtub.svg"
+                        alt="room ico"
+                      />
+                      <span class="item-info_room-text">2</span>
+                    </div>
+                    <div class="info_room-block">
+                      <img
+                        src="./img/properties/item-ico/bed.svg"
+                        alt="room ico"
+                      />
+                      <span class="item-info_room-text">3</span>
+                    </div>
+                    <div class="info_room-block">
+                      <img
+                        src="./img/properties/item-ico/square_foot.svg"
+                        alt="room ico"
+                      />
+                      <span class="item-info_room-text">2400 sqft</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="properties__item card">
+              <img
+                src="./img/properties/itemms/06.jpg"
+                alt="room-view"
+                class="properties__item-pic"
+              />
+              <div class="properties__item-content">
+                <h3 class="properties__item-title">San Diego story</h3>
+                <span class="properties__item-price">$ 3,700.00 USD</span>
+                <div class="properties__item-geo">
+                  <img
+                    src="./img/properties/item-ico/place.svg"
+                    alt="geoposition"
+                    class="properties__item-geo-pic"
+                  />
+                  <span class="properties__item-geo-txt"
+                    >2569 El Segundo, San Diego</span
+                  >
+                </div>
+                <div class="properties__item-info_row">
+                  <div class="properties__item-info_room">
+                    <div class="info_room-block">
+                      <img
+                        src="./img/properties/item-ico/bathtub.svg"
+                        alt="room ico"
+                      />
+                      <span class="item-info_room-text">1</span>
+                    </div>
+                    <div class="info_room-block">
+                      <img
+                        src="./img/properties/item-ico/bed.svg"
+                        alt="room ico"
+                      />
+                      <span class="item-info_room-text">2</span>
+                    </div>
+                    <div class="info_room-block">
+                      <img
+                        src="./img/properties/item-ico/square_foot.svg"
+                        alt="room ico"
+                      />
+                      <span class="item-info_room-text">650 sqft</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="properties__links">
+            <button class="properties__btn btn-white">
+              Explore properties
+            </button>
+            <a href="#" class="properties__link">Contact agent ></a>
+          </div>
+        </div>
+        <img
+          src="./img/properties/deco-dwn.svg"
+          alt="decoration"
+          class="properties__deco-pic-down"
+        />
+      </section>
+      <section class="locations">
+        <div class="locations__container _container">
+          <div class="locations__description">
+            <h2 class="locations__title section-title">Locations</h2>
+            <p class="locations__text">
+              Nunc mi ante, fringilla eget iaculis et, maximus vel purus integer
+              lacus urna, aliquet non nisl sit amet.
+            </p>
+          </div>
+          <div class="locations__items">
+            <div class="location__item card">
+              <div class="location__item-content">
+                <h3 class="locations__item-title">San Francisco, CA</h3>
+                <a href="#" class="locations__item-link">View Properties ></a>
+              </div>
+            </div>
+            <div class="location__item card">
+              <div class="location__item-content">
+                <h3 class="locations__item-title">Los Angeles, CA</h3>
+                <a href="#" class="locations__item-link">View Properties ></a>
+              </div>
+            </div>
+            <div class="location__item card">
+              <div class="location__item-content">
+                <h3 class="locations__item-title">San Diego, CA</h3>
+                <a href="#" class="locations__item-link">View Properties ></a>
+              </div>
+            </div>
+            <div class="location__item card">
+              <div class="location__item-content">
+                <h3 class="locations__item-title">New York, NY</h3>
+                <a href="#" class="locations__item-link">View Properties ></a>
+              </div>
+            </div>
+            <div class="location__item card">
+              <div class="location__item-content">
+                <h3 class="locations__item-title">Las Vegas, NV</h3>
+                <a href="#" class="locations__item-link">View Properties ></a>
+              </div>
+            </div>
+            <div class="location__item card">
+              <div class="location__item-content">
+                <h3 class="locations__item-title">Miami, FL</h3>
+                <a href="#" class="locations__item-link">View Properties ></a>
+              </div>
+            </div>
+          </div>
+          <div class="locations__links">
+            <button class="locations__btn btn-white">Explore properties</button>
+            <a href="#" class="locations__link">Contact agent ></a>
+          </div>
+        </div>
+      </section>
+      <section class="customers">
+        <div class="customers__inv-card">
+          <div class="customers__inv-card-content">
+            <img
+              src="./img/customers/family.svg"
+              alt="img"
+              class="customers__inv-card-pic"
+            />
+            <h2 class="customers__inv-card-title section-title">
+              Families are our priority
+            </h2>
+            <span class="customers__inv-card-text"
+              >Curabitur eget aliquam elit. In mauris purus, auctor a eleifend
+              non, placerat vel arcu. In non consectetur lorem. Morbi non varius
+              sapien suscipit mauri.</span
+            >
+            <button class="customers__inv-card-btn btn-orange">
+              Get started
+            </button>
+          </div>
+        </div>
+        <div class="customers__container">
+          <div class="customers__heading">
+            <h2 class="customers__heading-title section-title">
+              What customers say
+            </h2>
+            <p class="customers__heading-text">
+              Faucibus orci luctus et ultrices posuere cubilia curae.
+            </p>
+          </div>
+          <div class="customers__items">
+            <div class="customer__item card">
+              <div class="customer__item-content">
+                <img
+                  src="./img/customers/stars.svg"
+                  alt="stars"
+                  class="customer__item-rating"
+                />
+                <span class="customer__item-text"
+                  >"Aliquam erat volutpat. Nulla pretium nec urna et convallis.
+                  Ut varius mi lacus, nec molestie libero ultricies nec. Aenean
+                  lacinia dui elit, ut gravida quam."</span
+                >
+                <div class="customer__item-avatar">
+                  <img
+                    src="./img/customers/c1.jpg"
+                    alt="customer"
+                    class="customer__item-avatar-img"
+                  />
+                  <div class="customer__item-avatar-name">
+                    <h4 class="customer__item-avatar-title">Michael Webb</h4>
+                    <span class="customer__item-avatar-text">Customer</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="customer__item card">
+              <div class="customer__item-content">
+                <img
+                  src="./img/customers/stars.svg"
+                  alt="stars"
+                  class="customer__item-rating"
+                />
+                <span class="customer__item-text"
+                  >"Class aptent taciti sociosqu ad litora torquent per conubia
+                  nostra, per inceptos himenaeos. Morbi pretium iaculis
+                  ultricies. Aenean in leo vitae tortor."</span
+                >
+                <div class="customer__item-avatar">
+                  <img
+                    src="./img/customers/c2.png"
+                    alt="customer"
+                    class="customer__item-avatar-img"
+                  />
+                  <div class="customer__item-avatar-name">
+                    <h4 class="customer__item-avatar-title">Amber Keene</h4>
+                    <span class="customer__item-avatar-text">Customer</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="customer__item card">
+              <div class="customer__item-content">
+                <img
+                  src="./img/customers/stars.svg"
+                  alt="stars"
+                  class="customer__item-rating"
+                />
+                <span class="customer__item-text"
+                  >"Condimentum viverra orci. Pellentesque suscipit odio nisl,
+                  non ultricies purus mattis eget. In placerat, lorem a sodales
+                  ullamcorper, eros nibh laoreet nisl."</span
+                >
+                <div class="customer__item-avatar">
+                  <img
+                    src="./img/customers/c3.png"
+                    alt="customer"
+                    class="customer__item-avatar-img"
+                  />
+                  <div class="customer__item-avatar-name">
+                    <h4 class="customer__item-avatar-title">Sarah Tarleton</h4>
+                    <span class="customer__item-avatar-text">Customer</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="blog">
+        <div class="blog__container _container">
+          <div class="blog__heading">
+            <h3 class="blog__title title-min">Blog</h3>
+            <h2 class="blog__subtitle section-title">Latest posts</h2>
+          </div>
+          <div class="blog__description">
+            <span class="blog__text"
+              >Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+              posuere cubilia curae. Praesent efficitur nibh massa morbi
+              sagittis ornare dui in ornare.</span
+            >
+            <button class="blog__btn btn-white">View all</button>
+          </div>
+          <div class="blog__items">
+            <div class="blog__item card">
+              <img
+                src="./img/blog/01.jpg"
+                alt="poster"
+                class="blog__item-img"
+              />
+              <div class="blog__item-content">
+                <div class="blog__item-article_info">
+                  <a href="#" class="article_info-link">Trends</a>
+                  <span class="article_info-date">May 10, 2022</span>
+                </div>
+                <div class="blog__item-text">
+                  <h3 class="blog__item-title">The 9 best homes in New York</h3>
+                  <p class="blog__item-description">
+                    Integer tincidunt rutrum faucibus. Proin sit amet varius
+                    arcu. Aliquam vel leo augue donec.
+                  </p>
+                </div>
+                <a href="#" class="blog__item-link">Read more ></a>
+              </div>
+            </div>
+            <div class="blog__item card">
+              <img
+                src="./img/blog/02.jpg"
+                alt="poster"
+                class="blog__item-img"
+              />
+              <div class="blog__item-content">
+                <div class="blog__item-article_info">
+                  <a href="#" class="article_info-link">DIY</a>
+                  <span class="article_info-date">May 10, 2022</span>
+                </div>
+                <div class="blog__item-text">
+                  <h3 class="blog__item-title">
+                    How to easily buy a house with Realco
+                  </h3>
+                  <p class="blog__item-description">
+                    Praesent nec felis nisl. Phasellus eget lacus a metus
+                    fringilla fermentum sit amet.
+                  </p>
+                </div>
+                <a href="#" class="blog__item-link">Read more ></a>
+              </div>
+            </div>
+            <div class="blog__item card">
+              <img
+                src="./img/blog/03.jpg"
+                alt="poster"
+                class="blog__item-img"
+              />
+              <div class="blog__item-content">
+                <div class="blog__item-article_info">
+                  <a href="#" class="article_info-link">DIY</a>
+                  <span class="article_info-date">May 10, 2022</span>
+                </div>
+                <div class="blog__item-text">
+                  <h3 class="blog__item-title">
+                    Renting houses - complete guide
+                  </h3>
+                  <p class="blog__item-description">
+                    Nunc in bibendum leo, gravida scelerisque quam nulla
+                    interdum tellus a turpis.
+                  </p>
+                </div>
+                <a href="#" class="blog__item-link">Read more ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container _container">
+        <div class="footer__row">
+          <div class="footer__logo">
+            <img
+              src="./img/footer/main-logo.svg"
+              alt="logo"
+              class="footer__logo-img"
+            />
+          </div>
+          <div class="footer__navigation">
+            <nav class="footer__pages">
+              <ul class="footer__pages-links">
+                Pages
+                <li><a href="#" class="footer__pages-link">Home</a></li>
+                <li><a href="#" class="footer__pages-link">About</a></li>
+                <li><a href="#" class="footer__pages-link">Blog</a></li>
+                <li><a href="#" class="footer__pages-link">Agents</a></li>
+                <li><a href="#" class="footer__pages-link">Contact</a></li>
+                <li><a href="#" class="footer__pages-link">FAQs</a></li>
+                <li><a href="#" class="footer__pages-link">Properties</a></li>
+              </ul>
+            </nav>
+            <nav class="footer__pages">
+              <ul class="footer__pages-links">
+                CMS Pages
+                <li><a href="#" class="footer__pages-link">Property</a></li>
+                <li>
+                  <a href="#" class="footer__pages-link">Property Single</a>
+                </li>
+                <li>
+                  <a href="#" class="footer__pages-link">Blog Categories</a>
+                </li>
+                <li>
+                  <a href="#" class="footer__pages-link">Blog Single</a>
+                </li>
+                <li>
+                  <a href="#" class="footer__pages-link">Agent Single</a>
+                </li>
+              </ul>
+            </nav>
+            <nav class="footer__pages">
+              <ul class="footer__pages-links">
+                Utility Pages
+                <li>
+                  <a href="#" class="footer__pages-link">Style Guide</a>
+                </li>
+                <li>
+                  <a href="#" class="footer__pages-link">Changelog</a>
+                </li>
+                <li>
+                  <a href="#" class="footer__pages-link">Licenses</a>
+                </li>
+                <li>
+                  <a href="#" class="footer__pages-link">404</a>
+                </li>
+                <li>
+                  <a href="#" class="footer__pages-link">Password</a>
+                </li>
+                <li>
+                  <a href="#" class="footer__pages-link">Search</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer__subscribe">
+            <h3 class="footer__subscribe-title">Subscribe</h3>
+            <span class="footer__subscribe-text"
+              >Join our newsletter to stay up to date on features and
+              releases.</span
+            >
+            <div class="footer__subscribe-form">
+              <input
+                type="text"
+                placeholder="Enter your email"
+                class="footer__subscribe-input"
+              />
+              <button class="footer__subscribe-btn btn-orange">
+                Subscribe
+              </button>
+            </div>
+            <div class="footer__subscribe-rules">
+              <span class="footer__subscribe-rules-txt"
+                >By subscribing you agree to with our</span
+              >
+              <a href="#" class="footer__subscribe-rules-link"
+                >Privacy Policy</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <div class="footer__copyright-row">
+          <div class="footer__copyright-description">
+            <span class="footer__copyright-autor">© Realco by</span>
+            <a href="#" class="footer__copyright-link">Minimal Square</a>
+          </div>
+          <div class="footer__copyright-social">
+            <a href="#" class="footer__copyright-social-link">
+              <img
+                src="./img/footer/social/fb.svg"
+                alt="social"
+                class="footer__copyright-logo"
+              />
+            </a>
+            <a href="#" class="footer__copyright-social-link">
+              <img
+                src="./img/footer/social/ig.svg"
+                alt="social"
+                class="footer__copyright-logo"
+              />
+            </a>
+            <a href="#" class="footer__copyright-social-link">
+              <img
+                src="./img/footer/social/twi.svg"
+                alt="social"
+                class="footer__copyright-logo"
+              />
+            </a>
+            <a href="#" class="footer__copyright-social-link">
+              <img
+                src="./img/footer/social/in.svg"
+                alt="social"
+                class="footer__copyright-logo"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
